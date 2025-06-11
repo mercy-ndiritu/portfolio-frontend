@@ -24,13 +24,32 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: 'Travel Booking Platform',
+      title: 'Company Website',
       description: 'A responsive company website built to present services, contact details, and business information with a clean, modern design.',
       image: '/intellicode.png',
       category: 'Web Development',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       link : 'https://portfolio-intellicode.vercel.app/'
     },
+     {
+      id: 4,
+      title: 'TotalEnergies Rebrand',
+      description: 'A modern rebranding of the TotalEnergies company website, featuring an intuitive UI, responsive layout, and CMS integration for dynamic content management.',
+      image: '/total.png',
+      category: 'Web Development',
+      technologies: ['React', 'Tailwind CSS', 'Firebase'],
+      link : 'https://totalenergies-399c0.web.app/'
+    },
+    {
+      id: 4,
+      title: 'WeatherWise',
+      description: 'A sleek and user-friendly weather app that provides real-time weather updates, forecasts, and allows users to save their favorite cities for quick access.',
+      image: '/weatherwise.png',
+      category: 'Web Application',
+      technologies: ['React', 'Tailwind CSS', 'OpenWeatherMap API'],
+      link: 'https://weather-app-frontend-rose-six.vercel.app/'
+    },
+
   ];
   return (
     <section id="projects" className="min-h-screen flex items-center relative px-4 md:px-12 lg:px-20">
